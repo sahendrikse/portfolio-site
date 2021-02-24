@@ -1,0 +1,33 @@
+/* Nav */
+
+.nav__container {
+  display:flex;
+  position: fixed;
+  top: 56px;
+  right: 49px
+}
+
+.nav__button {
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 500;
+  align-self:flex-end;
+  margin-left:100px;
+  letter-spacing: 1.5px;
+  cursor:pointer;
+  transition: top .5s ease,opacity .5s ease, color .5s ease;
+}
+
+.nav__button:hover {
+  color: rgb(195, 9, 40);
+}
+
+.nav__button:after {
+  transition: opacity .3s ease,transform .3s ease,visibility .3s ease;  
+}
+
+/* Overrides */
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}

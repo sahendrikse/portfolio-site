@@ -1,0 +1,49 @@
+/* Footer */
+
+.copy-bar {
+  align-items: flex-end;
+  bottom: 0;
+  color: rgba(255, 255, 255, 0.75);
+  display: flex;
+  font-size: 0.7em;
+  
+  height: 100px;
+  left: 19px;
+  margin-bottom: 10px;
+  padding: 20px;
+  position: absolute;
+  letter-spacing: 2px;
+}
+
+.social__bar {
+  align-items: flex-end;
+  bottom: 0;
+  display: flex;
+  height: 100px;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  bottom: 49px;
+  text-align: right;
+  width: 30%;
+}
+
+.ico {
+  color: rgba(255, 255, 255, 0.75);
+  margin-right:50px;
+  transition: top .5s ease,opacity .5s ease, color .5s ease;
+  cursor:pointer;
+}
+
+
+.ico:hover {
+	color: #c30928;
+}
+
+.ico:after {
+   transition: opacity .3s ease,transform .3s ease,visibility .3s ease;  
+}
+
+.btc {
+	margin-bottom:15px
+}
